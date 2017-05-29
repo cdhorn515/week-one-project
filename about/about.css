@@ -33,9 +33,9 @@
     width: 48px;
     height: 46px;
     margin-left: 20px;
-    margin-top: 10px
-
+    margin-top: 10px;
   }
+
   ul{
     display: flex;
     list-style: none;
@@ -48,7 +48,6 @@
   li{
     z-index: 2;
     text-transform: uppercase;
-    /*margin: 5px 0;*/
     font-family: 'Roboto';
     font-size: 18px;
   }
@@ -62,5 +61,122 @@
   }
 
 body{
+  /*position: relative;*/
+  background-color: #F3F1E8;
+  width: 1280px;
+  /*margin: 0 auto;*/
+}
 
+h1{
+  font-family: 'Merriweather';
+  font-size: 66px;
+  font-weight: 400;
+  text-align: center;
+  margin: 70px auto;
+}
+
+section{
+  margin: 0 196px;
+}
+
+img{
+  float: left;
+  height: 116px;
+  width: 155px;
+  margin-right: 30px;
+  margin-bottom: 24px;
+  background-image: url('../images/birdhouse.jpg');
+  background-size: cover;
+}
+
+p{
+  font-family: 'Merriweather';
+  font-size: 20px;
+  line-height: 1.9;
+}
+
+blockquote{
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: lighter;
+  border-left: 2px solid #988770;
+  padding-left: 28px;
+  line-height: 1.8;
+}
+
+.clear{
+  clear: both;
+}
+
+h4{
+  font-family: 'Merriweather';
+  font-size: 28px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+
+.cactus-pic{
+  background-image: url('../images/background-3.jpg');
+  background-size: cover;
+  background-position: center;
+  width: initial;
+  height: 320px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+}
+
+#plant-pic-txt{
+  font-family: 'Merriweather';
+  font-size: 66px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: auto;
+  color: #FFF;
+  padding-top: 110px;
+}
+
+img:last-of-type{
+  display: block;
+  float: right;
+  height: 120px;
+  width: 160px;
+  background-image: url('../images/background-1.jpg');
+  margin-right: 0;
+  margin-left: 30px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 60px;
+}
+
+#shelf-txt{
+  display: block;
+  clear: right;
+  float: right;
+  text-align: center;
+  width: 160px;
+  font-family: 'Merriweather';
+  font-size: 14px;
+  color: #968772;
+}
+
+p:last-of-type{
+  float: left;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background-color: #2A3026;
+  color: #DEE0C4;
+  font-family: 'Merriweather';
+  font-size: 28px;
+  font-weight: lighter;
+  padding-left: 28px;
+  text-align: left;
+}
+
+.fa{
+  vertical-align: super;
+  font-size: 12px;
 }
