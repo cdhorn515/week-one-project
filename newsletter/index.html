@@ -3,21 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Bent Creek Ceramics - Newsletter</title>
+    <!--normalize margins-->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
+    <!--font awesome-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--font import-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i">
     <link rel="stylesheet" href="newsletter.css">
   </head>
-  <body>
     <!--navbar with three <li> links centered and icon left justified-->
     <nav class="navbar">
       <div class="logo">
       <ul class="pages">
-        <li>Home</li>
-        <li>About</li>
-        <li>Newsletter</li>
+        <li id="home"><a href="../home/index.html">Home</li>
+        <li id="about"><a href="../about/index.html">About</li>
+        <li id="newsletter"><a href="index.html">Newsletter</li>
       </ul>
     </nav>
-
+<form>
     <!--form with z-index and submit button-->
     <div class="info">
       <div class="card-header"></div>
@@ -27,6 +30,5 @@
       <div id="email">Email</div>
       <div class="submit">Submit</div>
     </div>
-
-  </body>
+  </form>
 </html>
