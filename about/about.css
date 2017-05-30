@@ -17,7 +17,6 @@
     width: 1280px;
     top: 0;
     left: 0;
-    /*padding-top: 64px;*/
   }
 
   .navbar {
@@ -63,10 +62,9 @@
   }
 
 body{
-  /*position: relative;*/
   background-color: #F3F1E8;
   width: 1280px;
-  /*margin: 0 auto;*/
+  padding-top: 64px;
 }
 
 h1{

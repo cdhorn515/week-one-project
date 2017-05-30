@@ -12,12 +12,13 @@
   box-sizing: border-box;
 }
 
-
+/*info on scrolling content behind navbar--https://stackoverflow.com/questions/9677894/header-div-stays-at-top-vertical-scrolling-div-below-with-scrollbar-only-attach*/
 header{
-  /*position: absolute;*/
+  position: fixed;
   width: 1280px;
-  /*padding-top: 64px;*/
-}
+  top: 0;
+  left: 0;
+  }
 
 .navbar {
   position: relative;
@@ -80,6 +81,7 @@ h2{
 body{
   background-color: #F2F1E8;
   width: 1280px;
+  padding-top: 64px;
 }
 .content{
   width: 100%;
