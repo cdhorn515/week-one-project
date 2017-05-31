@@ -134,60 +134,60 @@ span{
 }
 
 #cacti {
-  width: 57%;
+  /*width: 57%;*/
   background-image: url('../images/product-1.jpg');
   background-position: top;
-  flex: 3 auto;
+  flex: 3 1 60%;
 }
 
 #sets{
-  width: 18%;
+  /*width: 18%;*/
   background-image: url('../images/product-2.jpg');
   background-position: center;
-  flex: auto;
+  flex: 1 1 18%;
 }
 
 #textures{
-  width: 18%;
+  /*width: 18%;*/
   background-image: url('../images/product-3.jpg');
   background-position: bottom;
-  flex: auto;
+  flex: 1 1 18%;
 }
 
 #blue{
   height: 238px;
-  width: 14%;
+  /*width: 14%;*/
   background-image: url('../images/product-4.jpg');
   background-position: left;
   flex-shrink: 2;
-  flex: auto;
+  flex: 1 2 14%;
 }
 
 #jars{
   height: 238px;
-  width: 14%;
+  /*width: 14%;*/
   background-image: url('../images/product-5.jpg');
   flex-shrink: 2;
   background-position: left;
-  flex: auto;
+  flex: 1 2 14%;
+}
+
+#multiple{
+  height: 238px;
+  /*width: 35%;*/
+  background-image: url('../images/product-6.jpg');
+  flex-grow: 2;
+  background-position: top;
+  flex: 2 1 33%;
 }
 
 #brn-cup{
   height: 238px;
-  width: 14%;
+  /*width: 14%;*/
   background-image: url('../images/product-7.jpg');
-  flex-shrink: 2;
+  /*flex-shrink: 2;*/
   background-position: left;
-  flex: auto;
-}
-
-#multiple{
- height: 238px;
-  width: 35%;
-  background-image: url('../images/product-6.jpg');
-  flex-grow: 2;
-  background-position: top;
-  flex: auto;
+  flex: 1 2 14%;
 }
 
 footer {
