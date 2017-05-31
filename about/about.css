@@ -130,39 +130,39 @@ h4{
   background-attachment: fixed;
 }
 
-#plant-pic-txt{
-  font-family: 'Merriweather';
-  font-size: 66px;
-  font-weight: 400;
-  text-align: center;
-  margin-top: auto;
-  color: #FFF;
-  padding-top: 110px;
-}
-
 .aside-pic{
   display: block;
   float: right;
   height: 120px;
   width: 160px;
   background-image: url('../images/background-1.jpg');
-  margin-right: 0;
-  margin-left: 30px;
+  margin-right: 5px;
+  margin-top: 15px;
+  margin-left: 25px;
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  padding-top: 60px;
+  /*padding-top: 65px;*/
 }
 
-#shelf-txt{
+figcaption{
   display: block;
   clear: right;
   float: right;
-  text-align: center;
+  text-align: left;
   width: 160px;
   font-family: 'Merriweather';
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.6;
   color: #968772;
+  font-weight: 400;
+  margin-top: auto;
+  padding-top: 10px;
+  margin-left: 5px;
+}
+
+#shelf-txt{
+
 }
 
 /*p:last-of-type{
