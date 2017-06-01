@@ -66,10 +66,19 @@ li a:hover{
   color: #CD5D67;
 }
 
+.txt-link{
+  color: #968772;
+}
+
+.txt-link:hover{
+  color: #967343;
+}
+
 body{
   background-color: #F3F1E8;
   width: 1280px;
   padding-top: 64px;
+  color: #131511;
 }
 
 h1{
@@ -109,12 +118,14 @@ p{
 }
 
 blockquote{
+  margin: 0;
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: lighter;
   border-left: 2px solid #988770;
   padding-left: 28px;
   line-height: 1.8;
+  /*left-margin: 0;*/
 }
 
 .clear{
@@ -134,9 +145,18 @@ h4{
   background-position: center;
   width: initial;
   height: 320px;
-  margin: 0 5px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+#plant-pic-txt{
+  color: #FFF;
+  text-align: center;
+  font-family: 'Merriweather';
+  font-size: 50px;
+  margin: 0;
+  padding-top: 120px;
+  font-weight: lighter;
 }
 
 .aside-pic{
@@ -151,7 +171,6 @@ h4{
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  /*padding-top: 65px;*/
 }
 
 figcaption{
@@ -173,11 +192,6 @@ figcaption{
 #shelf-txt{
 
 }
-
-/*p:last-of-type{
-  clear: right;
-  float: left;
-}*/
 
 table{
   display: table;
