@@ -119,13 +119,13 @@ p{
 
 blockquote{
   margin: 0;
-  font-family: 'Roboto';
+  font-family: 'Merriweather', serif;
   font-size: 18px;
   font-weight: lighter;
   border-left: 2px solid #988770;
   padding-left: 28px;
   line-height: 1.8;
-  /*left-margin: 0;*/
+  font-style: oblique;
 }
 
 .clear{
