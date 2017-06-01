@@ -26,6 +26,7 @@ header{
   background-color: #FFF;
   max-width: 1280px;
   height: 64px;
+  box-shadow:  1px 1px 2px 1px #ddd;
 }
 
 .logo {
@@ -51,7 +52,6 @@ ul{
 li{
   z-index: 2;
   text-transform: uppercase;
-  /*margin: 5px 0;*/
   font-family: 'Roboto';
   font-size: 18px;
 }
@@ -62,6 +62,11 @@ li a{
 li:nth-of-type(1) a{
   margin: 0;
   color: #968772;
+}
+
+
+li a:hover{
+  color: #CD5D67;
 }
 
 body{
