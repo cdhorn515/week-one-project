@@ -189,7 +189,7 @@ span{
 #brn-cup{
   height: 238px;
   /*width: 14%;*/
-  background-image: url('../images/product-7.jpg');
+  background-image: url('images/product-7.jpg');
   /*flex-shrink: 2;*/
   background-position: left;
   flex: 1 2 14%;
