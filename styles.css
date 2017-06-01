@@ -31,7 +31,7 @@ header{
 .logo {
   display: inline-block;
   text-align: left;
-  background-image: url('/images/bent-creek-logo.png');
+  background-image: url('../images/bent-creek-logo.png');
   background-size: cover;
   width: 48px;
   height: 46px;
@@ -136,21 +136,21 @@ span{
 
 #cacti {
   /*width: 57%;*/
-  background-image: url('images/product-1.jpg');
+  background-image: url('../images/product-1.jpg');
   background-position: top;
   flex: 3 1 60%;
 }
 
 #sets{
   /*width: 18%;*/
-  background-image: url('images/product-2.jpg');
+  background-image: url('../images/product-2.jpg');
   background-position: center;
   flex: 1 1 18%;
 }
 
 #textures{
   /*width: 18%;*/
-  background-image: url('images/product-3.jpg');
+  background-image: url('../images/product-3.jpg');
   background-position: bottom;
   flex: 1 1 18%;
 }
@@ -158,7 +158,7 @@ span{
 #blue{
   height: 238px;
   /*width: 14%;*/
-  background-image: url('images/product-4.jpg');
+  background-image: url('../images/product-4.jpg');
   background-position: left;
   flex-shrink: 2;
   flex: 1 2 14%;
@@ -167,7 +167,7 @@ span{
 #jars{
   height: 238px;
   /*width: 14%;*/
-  background-image: url('images/product-5.jpg');
+  background-image: url('../images/product-5.jpg');
   flex-shrink: 2;
   background-position: left;
   flex: 1 2 14%;
@@ -176,7 +176,7 @@ span{
 #multiple{
   height: 238px;
   /*width: 35%;*/
-  background-image: url('images/product-6.jpg');
+  background-image: url('../images/product-6.jpg');
   flex-grow: 2;
   background-position: top;
   flex: 2 1 33%;
@@ -185,7 +185,7 @@ span{
 #brn-cup{
   height: 238px;
   /*width: 14%;*/
-  background-image: url('images/product-7.jpg');
+  background-image: url('../images/product-7.jpg');
   /*flex-shrink: 2;*/
   background-position: left;
   flex: 1 2 14%;
