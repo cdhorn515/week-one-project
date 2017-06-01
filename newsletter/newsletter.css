@@ -56,18 +56,93 @@
     font-size: 18px;
   }
 
-  li a{
-    color: #2B2f26;
-  }
   li:nth-of-type(3) a{
     margin: 0;
     color: #968772;
   }
 
+  li a{
+    color: #2B2f26;
+  }
+
+
   body{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
     background-color: #F3F1E8;
+    min-height: 100vh;
     width: 1280px;
     background-image: url('../images/background-2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    padding-top: 64px;
+  }
+
+form{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-box{
+  height: 380px;
+  width: 612px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Merriweather';
+  font-size: 28px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h3{
+  font-family: 'Merriweather';
+  font-size: 19px;
+  font-weight: 500;
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+label{
+  border-bottom: 2px solid #8B7758;
+  flex: 1 1 90%;
+  /*margin-bottom: 40px;*/
+  margin: 20px 30px;
+}
+
+input{
+
+}
+section{
+  display: flex;
+  flex: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+#signupButton{
+  align-items: center;
+}
+
+button{
+ background-color: #8B7758;
+ width: 127px;
+ height: 55px;
+ margin: 0 auto;
+ margin-top: 20px;
+}

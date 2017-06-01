@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--font import-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i">
+    <!--favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="newsletter.css">
   </head>
     <!--navbar with three <li> links centered and icon left justified-->
@@ -16,22 +19,30 @@
     <nav class="navbar">
       <div class="logo"></div>
       <ul class="links">
-        <li id="home"><a href="../index.html">Home</li>
-        <li id="about"><a href="../about/index.html">About</li>
-        <li id="newsletter"><a href="index.html">Newsletter</li>
+        <li id="home"><a href="../index.html"></a>Home</li>
+        <li id="about"><a href="../about/index.html"></a>About</li>
+        <li id="newsletter"><a href="index.html"></a>Newsletter</li>
       </ul>
     </nav>
   </header>
 <body>
   <form>
     <!--form with z-index and submit button-->
-    <div class="info">
-      <div class="card-header"></div>
-      <h1>Sign Up for Our Weekly Newsletter</h1>
-      <h3>Stay up to date with events, activities, news and specials.</h3>
-      <div id="name">Name</div>
-      <div id="email">Email</div>
-      <div class="submit">Submit</div>
+    <div class="white-box">
+        <div class="card-header"></div>
+        <h1>Sign Up for Our Weekly Newsletter</h1>
+        <h3>Stay up to date with events, activities, news and specials.</h3>
+      <section>
+        <label for="name">Name</label>
+        <input type="text" id="nameInput" name="name" hidden>
+      </section>
+      <section>
+        <label for="email">Email</label>
+        <input type="email" id="emailInput" name="email" value="" hidden>
+     </section>
+     <section>
+      <button type="button" id="signupButton">Submit</button>
+    </section>
     </div>
   </form>
 </body>
