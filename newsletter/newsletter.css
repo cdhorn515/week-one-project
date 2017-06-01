@@ -67,4 +67,7 @@
   body{
     background-color: #F3F1E8;
     width: 1280px;
-    /*padding-top: 64px;*/
+    background-image: url('../images/background-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
