@@ -15,7 +15,7 @@
 /*info on scrolling content behind navbar--https://stackoverflow.com/questions/9677894/header-div-stays-at-top-vertical-scrolling-div-below-with-scrollbar-only-attach*/
 header{
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   left: 0;
   z-index: 4;
@@ -44,7 +44,8 @@ ul{
   display: flex;
   list-style: none;
   justify-content: space-between;
-  margin: -36px 460px;
+  margin: -4.4vw 31.94vw;
+  line-height: 4.4vw;
   padding: 0;
   position: relative;
 }
